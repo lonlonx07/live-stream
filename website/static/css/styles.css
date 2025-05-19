@@ -1,0 +1,43 @@
+.dyna-content {
+    margin:50px 50px 50px 50px;
+    font-family: Helvetica Nueu, sans-serif;
+}
+
+.dsp_inp{
+    border: solid 1px #cccccc; 
+    width: 100%;			
+    padding: 6px 6px 6px 6px; 
+    border-radius: 5px;
+}
+
+.td_inp {
+    padding:10px 10px 4px 10px;
+}
+
+#dsp_exist{
+    width: 100%;
+    max-height:500px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+#dsp_kanji_exist{
+    width: 100%;
+    max-height:500px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+#btn_search {
+    margin-left:15px;
+    padding:6px 7px 5px 7px;
+    background-color:#238AE6;
+    border-radius:3px;
+    height:30px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.button-mode {
+    cursor: pointer;
+}

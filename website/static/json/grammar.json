@@ -1,0 +1,1514 @@
+[
+  [
+    1,
+    "cha ikenai / ja ikenai",
+    "\u3061\u3083\u3044\u3051\u306a\u3044\u30fb\u3058\u3083\u3044\u3051\u306a\u3044",
+    "must not do (spoken Japanese)",
+    "5"
+  ],
+  [
+    2,
+    "da / desu",
+    "\u3060 / \u3067\u3059",
+    "to be (am, is, are, were, used to)",
+    "5"
+  ],
+  [
+    3,
+    "dake",
+    "\u3060\u3051",
+    "only; just; as much as~",
+    "5"
+  ],
+  [
+    4,
+    "darou",
+    "\u3060\u308d\u3046",
+    "I think; it seems; probably; right?",
+    "5"
+  ],
+  [
+    5,
+    "de",
+    "\u3067",
+    "in; at; on; by; with; via",
+    "5"
+  ],
+  [
+    6,
+    "demo",
+    "\u3067\u3082",
+    "but; however; though~",
+    "5"
+  ],
+  [
+    7,
+    "deshou",
+    "\u3067\u3057\u3087\u3046",
+    "I think; it seems; probably; right?",
+    "5"
+  ],
+  [
+    8,
+    "donna",
+    "\u3069\u3093\u306a",
+    "what kind of; what sort of",
+    "5"
+  ],
+  [
+    9,
+    "doushite",
+    "\u3069\u3046\u3057\u3066",
+    "why; for what reason; how",
+    "5"
+  ],
+  [
+    10,
+    "douyatte",
+    "\u3069\u3046\u3084\u3063\u3066",
+    "how; in what way; by what means\u200b",
+    "5"
+  ],
+  [
+    11,
+    "ga",
+    "\u304c",
+    "subject marker; however; but ~",
+    "5"
+  ],
+  [
+    12,
+    "ga arimasu",
+    "\u304c\u3042\u308a\u307e\u3059",
+    "there is; is (non-living things)",
+    "5"
+  ],
+  [
+    13,
+    "ga hoshii",
+    "\u304c\u307b\u3057\u3044",
+    "to want something",
+    "5"
+  ],
+  [
+    14,
+    "ga imasu",
+    "\u304c\u3044\u307e\u3059",
+    "there is; to be; is (living things)",
+    "5"
+  ],
+  [
+    15,
+    "hou ga ii",
+    "\u307b\u3046\u304c\u3044\u3044",
+    "had better; it'd be better to; should ~",
+    "5"
+  ],
+  [
+    16,
+    "i-adjectives",
+    "\u3044-adjectives",
+    "i-adjectives",
+    "5"
+  ],
+  [
+    17,
+    "ichiban",
+    "\u4e00\u756a\uff08\u3044\u3061\u3070\u3093\uff09",
+    "the most; the best",
+    "5"
+  ],
+  [
+    18,
+    "issho ni",
+    "\u4e00\u7dd2\u306b\uff08\u3044\u3063\u3057\u3087\u306b\uff09",
+    "together",
+    "5"
+  ],
+  [
+    19,
+    "itsumo",
+    "\u3044\u3064\u3082",
+    "always; usually; habitually",
+    "5"
+  ],
+  [
+    20,
+    "janai / dewa nai",
+    "\u3058\u3083\u306a\u3044\u30fb\u3067\u306f\u306a\u3044",
+    "to not be (am not; is not; are not)",
+    "5"
+  ],
+  [
+    21,
+    "ka",
+    "\u304b",
+    "question particle",
+    "5"
+  ],
+  [
+    22,
+    "ka~ka",
+    "\u304b\uff5e\u304b",
+    "or",
+    "5"
+  ],
+  [
+    23,
+    "kara",
+    "\u304b\u3089",
+    "because; since; from",
+    "5"
+  ],
+  [
+    24,
+    "kata",
+    "\u65b9\uff08\u304b\u305f\uff09",
+    "the way of doing something; how to do",
+    "5"
+  ],
+  [
+    25,
+    "kedo",
+    "\u3051\u3069",
+    "but; however; although ~",
+    "5"
+  ],
+  [
+    26,
+    "keredo mo",
+    "\u3051\u308c\u3069\u3082",
+    "but; however; although ~",
+    "5"
+  ],
+  [
+    27,
+    "mada",
+    "\u307e\u3060",
+    "still; not yet",
+    "5"
+  ],
+  [
+    28,
+    "mada ~te imasen",
+    "\u307e\u3060\uff5e\u3066\u3044\u307e\u305b\u3093",
+    "have not yet ~",
+    "5"
+  ],
+  [
+    29,
+    "made",
+    "\u307e\u3067",
+    "until; as far as; to (an extent); even ~",
+    "5"
+  ],
+  [
+    30,
+    "mae ni",
+    "\u524d\u306b\uff08\u307e\u3048\u306b\uff09",
+    "before; in front of~",
+    "5"
+  ],
+  [
+    31,
+    "masen ka",
+    "\u307e\u305b\u3093\u304b",
+    "would you; do you want to; shall we ~",
+    "5"
+  ],
+  [
+    32,
+    "mashou",
+    "\u307e\u3057\u3087\u3046",
+    "let's ~; shall we ~",
+    "5"
+  ],
+  [
+    33,
+    "mashouka",
+    "\u307e\u3057\u3087\u3046\u304b",
+    "shall I ~; used to offer help to the listener",
+    "5"
+  ],
+  [
+    34,
+    "mo",
+    "\u3082",
+    "too; also; as well",
+    "5"
+  ],
+  [
+    35,
+    "mou",
+    "\u3082\u3046",
+    "already; anymore; again; other",
+    "5"
+  ],
+  [
+    36,
+    "na-adjectives",
+    "\u306a-adjectives",
+    "na-adjectives",
+    "5"
+  ],
+  [
+    37,
+    "naa",
+    "\u306a\u3042",
+    "sentence ending particle; confirmation; admiration, etc",
+    "5"
+  ],
+  [
+    38,
+    "naide",
+    "\u306a\u3044\u3067",
+    "without doing~ ; To do [B] without doing [A]",
+    "5"
+  ],
+  [
+    39,
+    "naide kudasai",
+    "\u306a\u3044\u3067\u304f\u3060\u3055\u3044",
+    "please don't do",
+    "5"
+  ],
+  [
+    40,
+    "naito ikenai",
+    "\u306a\u3044\u3068\u3044\u3051\u306a\u3044",
+    "must do; have an obligation to do",
+    "5"
+  ],
+  [
+    41,
+    "naku temo ii",
+    "\u306a\u304f\u3066\u3082\u3044\u3044",
+    "don't have to",
+    "5"
+  ],
+  [
+    42,
+    "nakucha",
+    "\u306a\u304f\u3061\u3083",
+    "must do; need to; gotta do",
+    "5"
+  ],
+  [
+    43,
+    "nakute wa ikenai",
+    "\u306a\u304f\u3066\u306f\u3044\u3051\u306a\u3044",
+    "must do; need to do",
+    "5"
+  ],
+  [
+    44,
+    "nakute wa naranai",
+    "\u306a\u304f\u3066\u306f\u306a\u3089\u306a\u3044",
+    "must do; need to do",
+    "5"
+  ],
+  [
+    45,
+    "naru",
+    "\u306a\u308b",
+    "to become",
+    "5"
+  ],
+  [
+    46,
+    "ndesu",
+    "\u3093\u3067\u3059",
+    "to explain something; show emphasis",
+    "5"
+  ],
+  [
+    47,
+    "ne",
+    "\u306d",
+    "isn't it? right? eh?",
+    "5"
+  ],
+  [
+    48,
+    "ni",
+    "\u306b",
+    "destination particle; in; at; on; to",
+    "5"
+  ],
+  [
+    49,
+    "ni iku",
+    "\u306b\u3044\u304f",
+    "go to do",
+    "5"
+  ],
+  [
+    50,
+    "ni suru",
+    "\u306b\u3059\u308b",
+    "to decide on",
+    "5"
+  ],
+  [
+    51,
+    "ni/e",
+    "\u306b/\u3078",
+    "to (indicates direction / destination)",
+    "5"
+  ],
+  [
+    52,
+    "no",
+    "\u306e",
+    "possessive particle",
+    "5"
+  ],
+  [
+    53,
+    "no desu",
+    "\u306e\u3067\u3059",
+    "to explain something; show emphasis",
+    "5"
+  ],
+  [
+    54,
+    "no ga heta",
+    "\u306e\u304c\u4e0b\u624b\uff08\u306e\u304c\u3078\u305f\uff09",
+    "to be bad at doing something",
+    "5"
+  ],
+  [
+    55,
+    "no ga jouzu",
+    "\u306e\u304c\u4e0a\u624b\uff08\u306e\u304c\u3058\u3087\u3046\u305a\uff09",
+    "to be good at",
+    "5"
+  ],
+  [
+    56,
+    "no ga suki",
+    "\u306e\u304c\u597d\u304d\uff08\u306e\u304c\u3059\u304d\uff09",
+    "to like doing something",
+    "5"
+  ],
+  [
+    57,
+    "no naka de [A] ga ichiban",
+    "\u306e\u4e2d\u3067[A]\u304c\u4e00\u756a\uff08\u306e\u306a\u304b\u3067[A]\u304c\u3044\u3061\u3070\u3093\uff09",
+    "out of this group, [A] is best",
+    "5"
+  ],
+  [
+    58,
+    "node",
+    "\u306e\u3067",
+    "because of; given that; since",
+    "5"
+  ],
+  [
+    59,
+    "o / go",
+    "\u304a / \u3054",
+    "polite marker; honorific prefix particle",
+    "5"
+  ],
+  [
+    60,
+    "o / wo",
+    "\u3092",
+    "object marker particle",
+    "5"
+  ],
+  [
+    61,
+    "o kudasai",
+    "\u3092\u304f\u3060\u3055\u3044",
+    "please give me ~",
+    "5"
+  ],
+  [
+    62,
+    "shikashi",
+    "\u3057\u304b\u3057",
+    "but; however ~",
+    "5"
+  ],
+  [
+    63,
+    "sore kara",
+    "\u305d\u308c\u304b\u3089",
+    "and; and then; after that; since then",
+    "5"
+  ],
+  [
+    64,
+    "soshite",
+    "\u305d\u3057\u3066",
+    "and; and then; thus; and now ~",
+    "5"
+  ],
+  [
+    65,
+    "sugiru",
+    "\u3059\u304e\u308b",
+    "too much",
+    "5"
+  ],
+  [
+    66,
+    "ta koto ga aru",
+    "\u305f\u3053\u3068\u304c\u3042\u308b",
+    "to have done something before",
+    "5"
+  ],
+  [
+    67,
+    "tai",
+    "\u305f\u3044",
+    "want to do something",
+    "5"
+  ],
+  [
+    68,
+    "tari~tari",
+    "\u305f\u308a\uff5e\u305f\u308a",
+    "do such things as A and B",
+    "5"
+  ],
+  [
+    69,
+    "te aru",
+    "\u3066\u3042\u308b",
+    "is/has been done (resulting state)",
+    "5"
+  ],
+  [
+    70,
+    "te iru",
+    "\u3066\u3044\u308b",
+    "ongoing action or current state",
+    "5"
+  ],
+  [
+    71,
+    "te kara",
+    "\u3066\u304b\u3089",
+    "after doing ~",
+    "5"
+  ],
+  [
+    72,
+    "te kudasai",
+    "\u3066\u304f\u3060\u3055\u3044",
+    "please do",
+    "5"
+  ],
+  [
+    73,
+    "te wa ikenai",
+    "\u3066\u306f\u3044\u3051\u306a\u3044",
+    "must not; may not; cannot",
+    "5"
+  ],
+  [
+    74,
+    "temo ii desu",
+    "\u3066\u3082\u3044\u3044\u3067\u3059",
+    "is OK to ~; is alright to ~; may I ~?",
+    "5"
+  ],
+  [
+    75,
+    "to",
+    "\u3068",
+    "and; with; as; connecting particle",
+    "5"
+  ],
+  [
+    76,
+    "toki",
+    "\u3068\u304d",
+    "when; at this time",
+    "5"
+  ],
+  [
+    77,
+    "totemo",
+    "\u3068\u3066\u3082",
+    "very; awfully; exceedingly\u200b",
+    "5"
+  ],
+  [
+    78,
+    "tsumori",
+    "\u3064\u3082\u308a",
+    "plan to ~; intend to ~",
+    "5"
+  ],
+  [
+    79,
+    "wa - topic marker",
+    "\u306f",
+    "topic marker",
+    "5"
+  ],
+  [
+    80,
+    "wa ~yori... desu",
+    "\u306f\u301c\u3088\u308a\u30fb\u30fb\u30fb\u3067\u3059",
+    "[A] is more ~ than [B]",
+    "5"
+  ],
+  [
+    81,
+    "wa dou desu ka",
+    "\u306f\u3069\u3046\u3067\u3059\u304b",
+    "how about; how is",
+    "5"
+  ],
+  [
+    82,
+    "ya",
+    "\u3084",
+    "and; or; connecting particle",
+    "5"
+  ],
+  [
+    83,
+    "yo",
+    "\u3088",
+    "you know; emphasis (ending particle)",
+    "5"
+  ],
+  [
+    84,
+    "yori ~hou ga",
+    "\u3088\u308a\uff5e\u307b\u3046\u304c",
+    "[A] is more than [B]",
+    "5"
+  ],
+  [
+    85,
+    "aida",
+    "\u9593\uff08\u3042\u3044\u3060\uff09",
+    "while; during; between",
+    "4"
+  ],
+  [
+    86,
+    "aida ni",
+    "\u9593\u306b\uff08\u3042\u3044\u3060\u306b\uff09",
+    "while/during~ something happened",
+    "4"
+  ],
+  [
+    87,
+    "amari~nai",
+    "\u3042\u307e\u308a\uff5e\u306a\u3044",
+    "not very, not much ~",
+    "4"
+  ],
+  [
+    88,
+    "ato de",
+    "\u5f8c\u3067\uff08\u3042\u3068\u3067\uff09",
+    "after~; later",
+    "4"
+  ],
+  [
+    89,
+    "ba",
+    "\u3070",
+    "conditional form; If [A] then [B]",
+    "4"
+  ],
+  [
+    90,
+    "baai wa",
+    "\u5834\u5408\u306f\uff08\u3070\u3042\u3044\u306f\uff09",
+    "in the event of; in the case that",
+    "4"
+  ],
+  [
+    91,
+    "bakari",
+    "\u3070\u304b\u308a",
+    "only; nothing but ~",
+    "4"
+  ],
+  [
+    92,
+    "dake de",
+    "\u3060\u3051\u3067",
+    "just by; just by doing",
+    "4"
+  ],
+  [
+    93,
+    "dasu",
+    "\u51fa\u3059\uff08\u3060\u3059\uff09",
+    "to begin to; to start to; to burst into; ... out (e.g. to jump out, to carry out)\u200b",
+    "4"
+  ],
+  [
+    94,
+    "de gozaimasu",
+    "\u3067\u3054\u3056\u3044\u307e\u3059",
+    "to be (honorific)",
+    "4"
+  ],
+  [
+    95,
+    "demo",
+    "\u3067\u3082",
+    "... or something; how about~",
+    "4"
+  ],
+  [
+    96,
+    "dewa nai ka",
+    "\u3067\u306f\u306a\u3044\u304b",
+    "right?; isn't it?",
+    "4"
+  ],
+  [
+    97,
+    "ga hitsuyou",
+    "\u304c\u5fc5\u8981\uff08\u304c\u3072\u3064\u3088\u3046\uff09",
+    "need; necessary",
+    "4"
+  ],
+  [
+    98,
+    "ga suru",
+    "\u304c\u3059\u308b",
+    "to smell; hear; taste",
+    "4"
+  ],
+  [
+    99,
+    "gari",
+    "\u304c\u308a",
+    "personality (someone tends to; has a tendency to; has a sensitivity to ~)",
+    "4"
+  ],
+  [
+    100,
+    "garu / gatteiru",
+    "\u304c\u308b / \u304c\u3063\u3066\u3044\u308b",
+    "to show signs of; to appear; to feel, to think ~",
+    "4"
+  ],
+  [
+    101,
+    "gozaimasu",
+    "\u3054\u3056\u3044\u307e\u3059",
+    "to be, to exist (the polite form of \u3044\u308b/\u3042\u308b)",
+    "4"
+  ],
+  [
+    102,
+    "hajimeru",
+    "\u59cb\u3081\u308b\uff08\u306f\u3058\u3081\u308b\uff09",
+    "to start; to begin to ~",
+    "4"
+  ],
+  [
+    103,
+    "hazu da",
+    "\u306f\u305a\u3060",
+    "it must be; it should be (expectation)",
+    "4"
+  ],
+  [
+    104,
+    "hazu ga nai",
+    "\u306f\u305a\u304c\u306a\u3044",
+    "cannot be (impossible)",
+    "4"
+  ],
+  [
+    105,
+    "hitsuyou ga aru",
+    "\u5fc5\u8981\u304c\u3042\u308b\uff08\u3072\u3064\u3088\u3046\u304c\u3042\u308b\uff09",
+    "need to; it is necessary to",
+    "4"
+  ],
+  [
+    106,
+    "ikou kei - volitional form",
+    "\u610f\u5411\u5f62 \uff08\u3044\u3053\u3046\u3051\u3044\uff09",
+    "volitional form\u200b; let's do ~",
+    "4"
+  ],
+  [
+    107,
+    "irassharu",
+    "\u3044\u3089\u3063\u3057\u3083\u308b",
+    "to be; to come; to go (polite version)",
+    "4"
+  ],
+  [
+    108,
+    "itashimasu",
+    "\u3044\u305f\u3057\u307e\u3059",
+    "to do (polite form of \u3059\u308b)",
+    "4"
+  ],
+  [
+    109,
+    "janai ka",
+    "\u3058\u3083\u306a\u3044\u304b",
+    "right? isn't it? let's~; confirmation",
+    "4"
+  ],
+  [
+    110,
+    "ka dou ka",
+    "\u304b\u3069\u3046\u304b",
+    "whether or not ~",
+    "4"
+  ],
+  [
+    111,
+    "ka shira",
+    "\u304b\u3057\u3089",
+    "I wonder~",
+    "4"
+  ],
+  [
+    112,
+    "kai",
+    "\u304b\u3044",
+    "turns a sentence into a yes/no question",
+    "4"
+  ],
+  [
+    113,
+    "kamo shirenai",
+    "\u304b\u3082\u3057\u308c\u306a\u3044",
+    "might; perhaps; indicates possibility",
+    "4"
+  ],
+  [
+    114,
+    "kana",
+    "\u304b\u306a",
+    "I wonder; should I?",
+    "4"
+  ],
+  [
+    115,
+    "kara tsukuru",
+    "\u304b\u3089\u4f5c\u308b\uff08\u304b\u3089\u3064\u304f\u308b\uff09",
+    "made from; made with",
+    "4"
+  ],
+  [
+    116,
+    "kitto",
+    "\u304d\u3063\u3068",
+    "surely; undoubtedly; almost certainly; most likely",
+    "4"
+  ],
+  [
+    117,
+    "koro / goro",
+    "\u9803\uff08\u3053\u308d / \u3054\u308d\uff09",
+    "around; about; when",
+    "4"
+  ],
+  [
+    118,
+    "koto",
+    "\u3053\u3068",
+    "Verb nominalizer",
+    "4"
+  ],
+  [
+    119,
+    "koto ga aru",
+    "\u3053\u3068\u304c\u3042\u308b",
+    "there are times when",
+    "4"
+  ],
+  [
+    120,
+    "koto ga dekiru",
+    "\u3053\u3068\u304c\u3067\u304d\u308b",
+    "can; able to",
+    "4"
+  ],
+  [
+    121,
+    "koto ni naru",
+    "\u3053\u3068\u306b\u306a\u308b",
+    "It has been decided that..; it turns out that..",
+    "4"
+  ],
+  [
+    122,
+    "koto ni suru",
+    "\u3053\u3068\u306b\u3059\u308b",
+    "to decide on",
+    "4"
+  ],
+  [
+    123,
+    "ku suru",
+    "\u304f\u3059\u308b",
+    "to make something ~",
+    "4"
+  ],
+  [
+    124,
+    "kyuu ni",
+    "\u6025\u306b\uff08\u304d\u3085\u3046\u306b\uff09",
+    "quickly; immediately; hastily; suddenly; abruptly; unexpectedly ~",
+    "4"
+  ],
+  [
+    125,
+    "made ni",
+    "\u307e\u3067\u306b",
+    "by; by the time; indicates time limit",
+    "4"
+  ],
+  [
+    126,
+    "mama",
+    "\u307e\u307e",
+    "as it is; current state; without changing ~",
+    "4"
+  ],
+  [
+    127,
+    "matawa",
+    "\u307e\u305f\u306f",
+    "both; or; otherwise\u200b; choice between [A] or [B]",
+    "4"
+  ],
+  [
+    128,
+    "mitai da",
+    "\u307f\u305f\u3044\u3060",
+    "like, similar to, resembling",
+    "4"
+  ],
+  [
+    129,
+    "mitai na",
+    "\u307f\u305f\u3044\u306a",
+    "like, similar to ~",
+    "4"
+  ],
+  [
+    130,
+    "mitai ni",
+    "\u307f\u305f\u3044\u306b",
+    "like; similar to ~",
+    "4"
+  ],
+  [
+    131,
+    "mo",
+    "\u3082",
+    "as many as; as much as; up to; nearly ~",
+    "4"
+  ],
+  [
+    132,
+    "na",
+    "\u306a",
+    "don\u2019t ~ (order somebody to not do something)",
+    "4"
+  ],
+  [
+    133,
+    "nado",
+    "\u306a\u3069",
+    "such as, things like ~",
+    "4"
+  ],
+  [
+    134,
+    "nagara",
+    "\u306a\u304c\u3089",
+    "while; during; as; simultaneously",
+    "4"
+  ],
+  [
+    135,
+    "nakanaka~nai",
+    "\u306a\u304b\u306a\u304b\uff5e\u306a\u3044",
+    "not easy to; struggling to; not able to ~",
+    "4"
+  ],
+  [
+    136,
+    "nakereba ikenai",
+    "\u306a\u3051\u308c\u3070\u3044\u3051\u306a\u3044",
+    "must do something; have to do something",
+    "4"
+  ],
+  [
+    137,
+    "nakereba naranai",
+    "\u306a\u3051\u308c\u3070\u306a\u3089\u306a\u3044",
+    "must do something; have to do something",
+    "4"
+  ],
+  [
+    138,
+    "nara",
+    "\u306a\u3089",
+    "if; in the case that ~",
+    "4"
+  ],
+  [
+    139,
+    "nasai",
+    "\u306a\u3055\u3044",
+    "do this (soft/firm command)",
+    "4"
+  ],
+  [
+    140,
+    "nasaru",
+    "\u306a\u3055\u308b",
+    "to do (honorific)",
+    "4"
+  ],
+  [
+    141,
+    "ni ki ga tsuku",
+    "\u306b\u6c17\u304c\u3064\u304f\uff08\u306b\u304d\u304c\u3064\u304f\uff09",
+    "to notice; to realize",
+    "4"
+  ],
+  [
+    142,
+    "ni mieru",
+    "\u306b\u898b\u3048\u308b\uff08\u306b\u307f\u3048\u308b\uff09",
+    "to look; to seem; to appear",
+    "4"
+  ],
+  [
+    143,
+    "ni suru",
+    "\u306b\u3059\u308b",
+    "to make something ~",
+    "4"
+  ],
+  [
+    144,
+    "nikui",
+    "\u306b\u304f\u3044",
+    "difficult to do ~",
+    "4"
+  ],
+  [
+    145,
+    "no naka de",
+    "\u306e\u4e2d\u3067\uff08\u306e\u306a\u304b\u3067\uff09",
+    "in; among ~",
+    "4"
+  ],
+  [
+    146,
+    "noni",
+    "\u306e\u306b",
+    "although, in spite of, even though ~",
+    "4"
+  ],
+  [
+    147,
+    "noni",
+    "\u306e\u306b",
+    "to (do something); in order to ~",
+    "4"
+  ],
+  [
+    148,
+    "nowa~da",
+    "\u306e\u306f\u301c\u3060",
+    "[A] is [B]; the reason for [A] is [B]",
+    "4"
+  ],
+  [
+    149,
+    "o~kudasai",
+    "\u304a\uff5e\u304f\u3060\u3055\u3044",
+    "please do (honorific)",
+    "4"
+  ],
+  [
+    150,
+    "o~ni naru",
+    "\u304a\uff5e\u306b\u306a\u308b",
+    "to do (honorific)",
+    "4"
+  ],
+  [
+    151,
+    "oki ni",
+    "\u304a\u304d\u306b",
+    "repeated at intervals, every ~",
+    "4"
+  ],
+  [
+    152,
+    "owaru",
+    "\u7d42\u308f\u308b\uff08\u304a\u308f\u308b\uff09",
+    "to finish; to end~",
+    "4"
+  ],
+  [
+    153,
+    "rareru",
+    "\u3089\u308c\u308b",
+    "potential form; ability or inability to do something",
+    "4"
+  ],
+  [
+    154,
+    "rashii",
+    "\u3089\u3057\u3044",
+    "it seems like; I heard; apparently ~",
+    "4"
+  ],
+  [
+    155,
+    "sa",
+    "\u3055",
+    "-ness\u200b ; nominalizer for adjective",
+    "4"
+  ],
+  [
+    156,
+    "sakki",
+    "\u3055\u3063\u304d",
+    "some time ago; just now",
+    "4"
+  ],
+  [
+    157,
+    "saserareru",
+    "\u3055\u305b\u3089\u308c\u308b",
+    "causative-passive; to be made to do something",
+    "4"
+  ],
+  [
+    158,
+    "saseru",
+    "\u3055\u305b\u308b",
+    "causative form; to make/let somebody do something",
+    "4"
+  ],
+  [
+    159,
+    "sasete kudasai",
+    "\u3055\u305b\u3066\u304f\u3060\u3055\u3044",
+    "please let me do",
+    "4"
+  ],
+  [
+    160,
+    "sasuga",
+    "\u3055\u3059\u304c",
+    "as one would expect; as is to be expected; even ~",
+    "4"
+  ],
+  [
+    161,
+    "shi",
+    "\u3057",
+    "and; and what\u2019s more ~ (emphasis)",
+    "4"
+  ],
+  [
+    162,
+    "sonna ni",
+    "\u305d\u3093\u306a\u306b",
+    "so much; so; like that",
+    "4"
+  ],
+  [
+    163,
+    "sore demo",
+    "\u305d\u308c\u3067\u3082",
+    "but still; and yet; even so ~",
+    "4"
+  ],
+  [
+    164,
+    "sore ni",
+    "\u305d\u308c\u306b",
+    "besides; in addition; also; moreover ~",
+    "4"
+  ],
+  [
+    165,
+    "sou da [1]",
+    "\u305d\u3046\u3060",
+    "I heard that; it is said that~",
+    "4"
+  ],
+  [
+    166,
+    "sou da [2]",
+    "\u305d\u3046\u3060",
+    "looks like; appears like; seeming ~",
+    "4"
+  ],
+  [
+    167,
+    "sou ni / sou na",
+    "\u305d\u3046\u306b / \u305d\u3046\u306a",
+    "seems like; looks like ~",
+    "4"
+  ],
+  [
+    168,
+    "ta bakari",
+    "\u305f\u3070\u304b\u308a",
+    "just finished; something just occurred",
+    "4"
+  ],
+  [
+    169,
+    "ta tokoro",
+    "\u305f\u3068\u3053\u308d",
+    "just finished doing, was just doing",
+    "4"
+  ],
+  [
+    170,
+    "tadoushi & jidoushi",
+    "\u4ed6\u52d5\u8a5e & \u81ea\u52d5\u8a5e\uff08\u305f\u3069\u3046\u3057 & \u3058\u3069\u3046\u3057\uff09",
+    "Transitive & Intransitive Verbs",
+    "4"
+  ],
+  [
+    171,
+    "tagaru",
+    "\u305f\u304c\u308b",
+    "wants to do ~ (third person)",
+    "4"
+  ],
+  [
+    172,
+    "tara",
+    "\u305f\u3089",
+    "if; after; when ~",
+    "4"
+  ],
+  [
+    173,
+    "tara dou",
+    "\u305f\u3089\u3069\u3046",
+    "why don't you (used to give advice)",
+    "4"
+  ],
+  [
+    174,
+    "tara ii desu ka",
+    "\u305f\u3089\u3044\u3044\u3067\u3059\u304b",
+    "what should I do?; speaker seeking instructions from listener",
+    "4"
+  ],
+  [
+    175,
+    "te / de",
+    "\u3066 / \u3067",
+    "conjunctive particle; so; because of [A], [B]...",
+    "4"
+  ],
+  [
+    176,
+    "te ageru",
+    "\u3066\u3042\u3052\u308b",
+    "to do for; to do a favor",
+    "4"
+  ],
+  [
+    177,
+    "te hoshii",
+    "\u3066\u307b\u3057\u3044",
+    "I want you to; need you to ~",
+    "4"
+  ],
+  [
+    178,
+    "te iku",
+    "\u3066\u3044\u304f",
+    "to start; to continue; to go on",
+    "4"
+  ],
+  [
+    179,
+    "te ita",
+    "\u3066\u3044\u305f",
+    "was doing something (past continuous)",
+    "4"
+  ],
+  [
+    180,
+    "te itadakemasen ka",
+    "\u3066\u3044\u305f\u3060\u3051\u307e\u305b\u3093\u304b",
+    "could you please ~",
+    "4"
+  ],
+  [
+    181,
+    "te kureru",
+    "\u3066\u304f\u308c\u308b",
+    "to do a favor; do something for someone",
+    "4"
+  ],
+  [
+    182,
+    "te kuru",
+    "\u3066\u304f\u308b",
+    "to do\u2026 and come back; to become; to continue; to start ~",
+    "4"
+  ],
+  [
+    183,
+    "te miru",
+    "\u3066\u307f\u308b",
+    "try doing",
+    "4"
+  ],
+  [
+    184,
+    "te morau",
+    "\u3066\u3082\u3089\u3046",
+    "to get somebody to do something",
+    "4"
+  ],
+  [
+    185,
+    "te oku",
+    "\u3066\u304a\u304f",
+    "to do something in advance",
+    "4"
+  ],
+  [
+    186,
+    "te shimau / chau",
+    "\u3066\u3057\u307e\u3046 / \u3061\u3083\u3046",
+    "to do something by accident, to finish completely",
+    "4"
+  ],
+  [
+    187,
+    "te sumimasen",
+    "\u3066\u3059\u307f\u307e\u305b\u3093",
+    "I\u2019m sorry for",
+    "4"
+  ],
+  [
+    188,
+    "te yaru",
+    "\u3066\u3084\u308b",
+    "to do for; to do a favor (casual)",
+    "4"
+  ],
+  [
+    189,
+    "te yokatta",
+    "\u3066\u3088\u304b\u3063\u305f",
+    "I\u2019m glad that ~",
+    "4"
+  ],
+  [
+    190,
+    "teiru tokoro",
+    "\u3066\u3044\u308b\u3068\u3053\u308d",
+    "in the process of doing",
+    "4"
+  ],
+  [
+    191,
+    "temo",
+    "\u3066\u3082",
+    "even; even if; even though ~",
+    "4"
+  ],
+  [
+    192,
+    "to",
+    "\u3068",
+    "whenever [A] happens, [B] also happens",
+    "4"
+  ],
+  [
+    193,
+    "to ittemo ii",
+    "\u3068\u8a00\u3063\u3066\u3082\u3044\u3044\uff08\u3068\u3044\u3063\u3066\u3082\u3044\u3044\uff09",
+    "you could say; one might say; I'd say ~",
+    "4"
+  ],
+  [
+    194,
+    "to iu",
+    "\u3068\u3044\u3046",
+    "called; named; that ~",
+    "4"
+  ],
+  [
+    195,
+    "to iu koto",
+    "\u3068\u3044\u3046\u3053\u3068",
+    "convert phrase into noun",
+    "4"
+  ],
+  [
+    196,
+    "to iwarete iru",
+    "\u3068\u8a00\u308f\u308c\u3066\u3044\u308b\uff08\u3068\u3044\u308f\u308c\u3066\u3044\u308b\uff09",
+    "it is said that ~",
+    "4"
+  ],
+  [
+    197,
+    "to kiita",
+    "\u3068\u805e\u3044\u305f\uff08\u3068\u304d\u3044\u305f\uff09",
+    "I heard...",
+    "4"
+  ],
+  [
+    198,
+    "to omou",
+    "\u3068\u601d\u3046\uff08\u3068\u304a\u3082\u3046\uff09",
+    "to think\u2026; I think\u2026; you think\u2026",
+    "4"
+  ],
+  [
+    199,
+    "toka~toka",
+    "\u3068\u304b\uff5e\u3068\u304b",
+    "among other things; such as; like ~",
+    "4"
+  ],
+  [
+    200,
+    "tokoro",
+    "\u3068\u3053\u308d",
+    "just about to; on the verge of doing something",
+    "4"
+  ],
+  [
+    201,
+    "tsuzukeru",
+    "\u7d9a\u3051\u308b\uff08\u3064\u3065\u3051\u308b\uff09",
+    "continue to; keen on ~",
+    "4"
+  ],
+  [
+    202,
+    "tte",
+    "\u3063\u3066",
+    "named; called ~",
+    "4"
+  ],
+  [
+    203,
+    "ukemi kei",
+    "\u53d7\u8eab\u5f62\uff08\u3046\u3051\u307f\u3051\u3044\uff09",
+    "passive form; passive voice",
+    "4"
+  ],
+  [
+    204,
+    "wa~ga... wa",
+    "\u306f\u301c\u304c\u2026 \u306f",
+    "[A] but [B]; however; comparison",
+    "4"
+  ],
+  [
+    205,
+    "yasui",
+    "\u3084\u3059\u3044",
+    "easy to; likely to; prone to; have a",
+    "4"
+  ],
+  [
+    206,
+    "yatto",
+    "\u3084\u3063\u3068",
+    "at last; finally; barely; narrowly ~",
+    "4"
+  ],
+  [
+    207,
+    "yori",
+    "\u3088\u308a",
+    "than; rather than; more than ~",
+    "4"
+  ],
+  [
+    208,
+    "yotei da",
+    "\u4e88\u5b9a\u3060\uff08\u3088\u3066\u3044\u3060\uff09",
+    "plan to, intend to",
+    "4"
+  ],
+  [
+    209,
+    "you da",
+    "\u3088\u3046\u3060",
+    "appears; seems; looks as if ~",
+    "4"
+  ],
+  [
+    210,
+    "you ni / you na",
+    "\u3088\u3046\u306b / \u3088\u3046\u306a",
+    "like; as; similar to ~",
+    "4"
+  ],
+  [
+    211,
+    "you ni naru",
+    "\u3088\u3046\u306b\u306a\u308b",
+    "to reach the point that; to come to be that; to turn into ~",
+    "4"
+  ],
+  [
+    212,
+    "you ni suru",
+    "\u3088\u3046\u306b\u3059\u308b",
+    "to try to; to make sure that ~",
+    "4"
+  ],
+  [
+    213,
+    "you to omou",
+    "\u3088\u3046\u3068\u601d\u3046\uff08\u3088\u3046\u3068\u304a\u3082\u3046\uff09",
+    "thinking of doing; planning to ~",
+    "4"
+  ],
+  [
+    214,
+    "zehi",
+    "\u305c\u3072",
+    "by all means; certainly; definitely ~",
+    "4"
+  ],
+  [
+    215,
+    "zenzen~nai",
+    "\u5168\u7136\uff5e\u306a\u3044\uff08\u305c\u3093\u305c\u3093\uff5e\u306a\u3044\uff09",
+    "(not) at all",
+    "4"
+  ],
+  [
+    216,
+    "zurai",
+    "\u3065\u3089\u3044",
+    "difficult to do ~",
+    "4"
+  ]
+]

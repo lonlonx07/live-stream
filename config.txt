@@ -1,0 +1,2 @@
+host=auto
+api_port=55554

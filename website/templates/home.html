@@ -1,0 +1,171 @@
+{% extends "base.html" %} 
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" data-bs-toggle="tab" href="#nav-vocabulary">Vocabulary</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#nav-kanji">Kanji</a>
+    </li>
+</ul>
+
+<div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-vocabulary" role="tabpanel" aria-labelledby="nav-vocabulary-tab">
+        <div id="vocab_count" style="text-align:right;">0/{{vocab_len}}</div>
+        <table class="table-bordered" style="width:100%;">
+            <col width="60%">
+            <col width="40%">
+            <tr>
+                <td class="td_inp">
+                    <b>Vocabulary Entry Form</b>
+                </td>
+                <td>
+                    <input type="text" style="width:100%;margin-right:-50px;padding-right:50px;" class="dsp_inp" id="inp_search" onkeyup="display_search()" placeholder="Search for..."/><i onclick="display_search()" id="btn_search" class="button-mode fa fa-search" aria-hidden="true"></i>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp">
+                    <textarea style="font-size:25px;" type="text" class="dsp_inp" id="inp_kanji" placeholder="kanji" rows="1" data-toggle="tooltip" data-placement="top" title="Kanji"></textarea>
+                    <!--input type="text" class="dsp_inp" id="inp_kanji" placeholder="kanji"/-->
+                </td>
+                <td rowspan="6" style="vertical-align:top;">
+                    <div id="dsp_exist">
+                        {% for vocab in vocab_list %}
+                            <div>
+                                <div>Kanji: {{vocab.kanji}}</div>
+                                <div>Hiragan/Katakana: {{vocab.hira_kata}}</div>
+                                <div>Romaji: {{vocab.romaji}}</div>
+                                <div>English: {{vocab.english}}</div>
+                                <div>Others: {{vocab.other}}</div>
+                            </div><hr>
+                        {% endfor %}
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp">
+                    <textarea style="font-size:25px;" type="text" class="dsp_inp" id="inp_hirakata" placeholder="hiragana/katakana" rows="1" data-toggle="tooltip" data-placement="top" title="Hiragana/Katakana"></textarea>
+                    <!--input type="text" class="dsp_inp" id="inp_hirakata" placeholder="hiragana/katakana"/-->
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp">
+                    <textarea style="font-size:25px;" type="text" class="dsp_inp" id="inp_romaji" placeholder="romaji" rows="1" data-toggle="tooltip" data-placement="top" title="Romaji"></textarea>
+                    <!--input type="text" class="dsp_inp" id="inp_romaji" placeholder="romaji"/-->
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp">
+                    <textarea style="font-size:25px;" type="text" class="dsp_inp" id="inp_english" placeholder="english translation" rows="1" data-toggle="tooltip" data-placement="top" title="English"></textarea>
+                    <!--input type="text" class="dsp_inp" id="inp_english" placeholder="english translation"/-->
+                </td>
+            </tr>
+            <tr>
+                <!--td class="td_inp">
+                    <input type="radio" class="" name="group" id="opt_gI"><label for="opt_gI">&nbsp;Group I</label><br>
+                    <input type="radio" class="" name="group" id="opt_gII"><label for="opt_gII">&nbsp;Group II</label><br>
+                    <input type="radio" class="" name="group" id="opt_gIII"><label for="opt_gIII">&nbsp;Group III</label>
+                </td-->
+                <td class="td_inp">
+                    <textarea style="font-size:25px;" type="text" class="dsp_inp" id="inp_others" placeholder="other details" rows="1" data-toggle="tooltip" data-placement="top" title="Others"></textarea>
+                    <!--input type="text" class="dsp_inp" id="inp_english" placeholder="english translation"/-->
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp" style="text-align:center;">
+                    <button id="btn_save" onclick="add_entry(1)">SAVE</button>
+                    <button id="btn_cancel" onclick="clear_inputs()">CANCEL</button>
+                    <button id="btn_update" onclick="process_action(2)">UPDATE</button>
+                    <button id="btn_delete" onclick="process_action(3)">DELETE</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="tab-pane fade" id="nav-kanji" role="tabpanel" aria-labelledby="nav-kanji-tab">
+        <div id="kanji_count" style="text-align:right;">0/{{kanji_len}}</div>
+        <table class="table-bordered" style="width:100%;">
+            <col width="60%">
+            <col width="40%">
+            <tr>
+                <td class="td_inp">
+                    <b>Kanji Entry Form</b>
+                </td>
+                <td>
+                    <input type="text" style="width:100%;margin-right:-50px;padding-right:50px;" class="dsp_inp" id="inp_kanji_search" onkeyup="display_kanji_search()" placeholder="Search for..."/><i onclick="display_kanji_search()" id="btn_kanji_search" class="button-mode fa fa-search" aria-hidden="true"></i>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp">
+                    <textarea style="font-size:25px;" type="text" class="dsp_inp" id="inp_kan_kanji" placeholder="kanji" rows="1" data-toggle="tooltip" data-placement="top" title="Kanji"></textarea>
+                    <!--input type="text" class="dsp_inp" id="inp_kanji" placeholder="kanji"/-->
+                </td>
+                <td rowspan="7" style="vertical-align:top;">
+                    <div id="dsp_kanji_exist">
+                        {% for kanji in kanji_list %}
+                            <div>
+                                <div>Kanji: {{kanji.kanji}}</div>
+                                <div>Kun-yomi: {{kanji.kunyomi}}</div>
+                                <div>On-yomi: {{kanji.onyomi}}</div>
+                                <div>Romaji: {{kanji.romaji}}</div>
+                                <div>Meaning: {{kanji.meaning}}</div>
+                                <div>Level: {{kanji.level}}</div>
+                            </div><hr>
+                        {% endfor %}
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp">
+                    <textarea style="font-size:25px;" type="text" class="dsp_inp" id="inp_kan_kunyomi" placeholder="kun-yomi" rows="1" data-toggle="tooltip" data-placement="top" title="Kun-yomi"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp">
+                    <textarea style="font-size:25px;" type="text" class="dsp_inp" id="inp_kan_onyomi" placeholder="on-yomi" rows="1" data-toggle="tooltip" data-placement="top" title="On-yomi"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp">
+                    <textarea style="font-size:25px;" type="text" class="dsp_inp" id="inp_kan_romaji" placeholder="romaji" rows="1" data-toggle="tooltip" data-placement="top" title="Romaji"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp">
+                    <textarea style="font-size:25px;" type="text" class="dsp_inp" id="inp_kan_meaning" placeholder="meaning" rows="1" data-toggle="tooltip" data-placement="top" title="Meaning"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp">
+                    <table class="table-borderless" style="width:100%;">
+                        <tr>
+                            <td>
+                                <input type="number" class="dsp_inp" id="inp_strokes_count" placeholder="strokes count" data-toggle="tooltip" data-placement="top" title="Strokes count"/>
+                            </td>
+                            <td>
+                                <select class="dsp_inp" id="n_level" data-toggle="tooltip" data-placement="top" title="Level" style="height:37px;">
+                                    <option value="5">Level N5</option>
+                                    <option value="4">Level N4</option>
+                                    <option value="3">Level N3</option>
+                                    <option value="2">Level N2</option>
+                                    <option value="1">Level N1</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_inp" style="text-align:center;">
+                    <button id="btn_kanji_save" onclick="kanji_process_action(1)">SAVE</button>
+                    <button id="btn_kanji_cancel" onclick="clear_kanji_inputs()">CANCEL</button>
+                    <button id="btn_kanji_update" onclick="kanji_process_action(2)">UPDATE</button>
+                    <button id="btn_kanji_delete" onclick="kanji_process_action(3)">DELETE</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+{% endblock %}

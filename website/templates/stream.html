@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Stream{% endblock %}
+
+{% block content %}
+<h1>Streams</h1>
+<div class="border mb-3 post rounded">
+    <div class="justify-content-start post-content">
+        Recorded Stream
+    </div>
+    <div class="px-4 py-5 my-5 text-center">
+        <div class="border photo-block-img">
+            <img src="{{ url_for('views.video_feed') }}" height="360px" width="auto"/>
+        </div>
+    </div>
+    <div class="button-mode d-flex align-items-center" id="choose_video">
+        <button class="btn btn-primary btn-sm mr-1 pos-r">
+            <i class="fas fa-file-video" aria-hidden="true"></i> Choose Video
+        </button>
+    </div>
+</div>
+
+{% endblock %}
